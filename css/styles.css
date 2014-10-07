@@ -1,5 +1,23 @@
 /* Your Website Styles */
+body {
+	background: url("../img/bg.png") #008C99;
+}
 
+h1{
+	font-family: 'Shadows Into Light', cursive;
+	color: #79205D;
+	font-style: italic;
+
+	background: red;
+	padding: 10px 0 0 0;
+	border: 10px white double;
+	width: 340px;
+	margin: 10px;
+}
+
+p{
+	line-height: 36px;
+}
 
 /* Show Grid */
 .showgrid {
