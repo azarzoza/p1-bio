@@ -1,6 +1,6 @@
 /* Your Website Styles */
 body {
-	background: url("../img/bg.png") #008C99;
+	background: url("../img/bg.png") #20B2AA;
 }
 
 h1{
@@ -8,15 +8,15 @@ h1{
 	color: #79205D;
 	font-style: italic;
 
-	background: red;
+	background: #8470ff;
 	padding: 10px 0 0 0;
-	border: 10px white double;
+	border: 10px #1B937B double;
 	width: 340px;
 	margin: 10px;
 }
 
 h3 {
-	color: red;
+	color: #9179E6;
 }
 
 #name {
@@ -24,8 +24,8 @@ h3 {
 }
 
 #leadin {
-	color: white;
-	background: teal;
+	color: #490D2D;
+	background: #6CE4BA;
 }
 
 .subhead {
