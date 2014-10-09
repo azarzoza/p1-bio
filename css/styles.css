@@ -15,9 +15,29 @@ h1{
 	margin: 10px;
 }
 
+h3 {
+	color: red;
+}
+
+#name {
+	color: pink;
+}
+
+#leadin {
+	color: white;
+	background: teal;
+}
+
+.subhead {
+	font-style: italic;
+	margin-left: 30px;
+}
+
 p{
 	line-height: 36px;
 }
+
+
 
 /* Show Grid */
 .showgrid {
