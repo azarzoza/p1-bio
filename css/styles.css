@@ -10,7 +10,7 @@ h1{
 
 	background: #8470ff;
 	padding: 10px 0 0 0;
-	border: 10px #1B937B double;
+	border: 10px #1B937B;
 	width: 340px;
 	margin: 10px;
 }
@@ -23,6 +23,11 @@ h2 {
 h3 {
 	font-family: 'Milonga', cursive;
 	color: #9179E6;
+}
+
+
+
+
 }
 
 .photo {
@@ -45,6 +50,7 @@ h3 {
 }
 
 p{
+	font-family: 'Milonga', cursive;
 	line-height: 36px;
 }
 
