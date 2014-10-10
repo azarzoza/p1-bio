@@ -1,6 +1,6 @@
 /* Your Website Styles */
 body {
-	background: url("../img/bg.png") #20B2AA;
+	background: url("../img/stardust.png") #20B2AA;
 }
 
 h1{
@@ -16,15 +16,22 @@ h1{
 }
 
 h2 { 
+
 	color: #9179E6;
 }
 
 h3 {
+	font-family: 'Milonga', cursive;
 	color: #9179E6;
 }
 
+.photo {
+	height: 100%;
+	width: 400px;
+}
+
 #name {
-	color: pink;
+	color: #00E6BF;
 }
 
 #leadin {
