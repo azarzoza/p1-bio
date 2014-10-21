@@ -3,12 +3,10 @@ body {
 	background: url("../img/stardust.png") #20B2AA;
 }
 
-h1{
+h1 {
 	font-family: 'Poiret One', cursive;
 	color: #79205D;
 	font-style: italic;
-
-	background: #8470ff;
 	padding: 10px 0 0 0;
 	border: 10px #1B937B;
 	width: 340px;
@@ -16,8 +14,12 @@ h1{
 }
 
 h2 { 
-
-	color: #9179E6;
+	font-family: 'Quicksand', sans-serif;
+	color: #7D1935;
+	margin:15px 0;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 0.8em;
 }
 
 h3 {
@@ -25,14 +27,19 @@ h3 {
 	color: #9179E6;
 }
 
-
+p {
+	font-family: 'Quicksand', sans-serif;
+	color: #eeafaf;
+}
 
 
 }
 
 .photo {
-	height: 100%;
-	width: 400px;
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
 }
 
 #name {
@@ -49,10 +56,6 @@ h3 {
 	margin-left: 30px;
 }
 
-p{
-	font-family: 'Sacramento', cursive;
-	line-height: 36px;
-}
 
 
 
