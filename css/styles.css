@@ -1,65 +1,168 @@
+
 /* Your Website Styles */
 body {
 	background: url("../img/stardust.png") #20B2AA;
 }
 
-h1 {
-	font-family: 'Poiret One', cursive;
-	color: #79205D;
-	font-style: italic;
-	padding: 10px 0 0 0;
-	border: 10px #1B937B;
-	width: 340px;
-	margin: 10px;
-}
 
-h2 { 
+/************************
+GENERAL
+*************************/
+body {
 	font-family: 'Quicksand', sans-serif;
 	color: #7D1935;
-	margin:15px 0;
-	font-size: 1.75em;
 	font-weight: normal;
-	line-height: 0.8em;
+	text-decoration: none;
+}
+
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a { 
+  text-decoration: none;
+}
+
+img {
+	width: 400px;
+	
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+/************************
+HEADING
+*************************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%; 
+}
+
+#title {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Poiret One', cursive;
+  margin:15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  margin:-5px 0 0;
+  font-weight: normal;
+  font-size: 1.50em;
 }
 
 h3 {
 	font-family: 'Sacramento', cursive;
 	color: #9179E6;
+	font-size: 1.25em;
 }
 
-p {
-	font-family: 'Quicksand', sans-serif;
-	color: #eeafaf;
+li {
+  list-style: none;
+  float: left;
+  margin: 0 4px 0 4px;
 }
 
 
+
+/************************
+FOOTER
+*************************/
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top:50px;
+  color:#9dd6d6;
 }
 
-.photo {
+
+
+
+/************************
+PAGE:ABOUT
+*************************/
+.profile-photo {
   display: block;
   max-width: 150px;
   margin: 0 auto 30px;
   border-radius: 100%;
 }
 
-#name {
-	color: #00E6BF;
+/************************
+PAGE:CONTACT
+*************************/
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
 }
 
-#leadin {
-	color: #490D2D;
-	background: #6CE4BA;
+.contact-info a {
+  display:block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;  
 }
 
-.subhead {
-	font-style: italic;
-	margin-left: 30px;
+
+
+/************************
+COLORS
+*************************/
+
+/* site body */
+body { 
+  background-color:#fff;
+  color: #eeafaf;
+}
+    
+
+ /* blue header */
+header {
+  background:#9dd6d6;
+  border-color:#eeafaf;
+}
+
+
+
+    
+/*links*/
+
+a {
+  color: #AFEEEE;
 }
 
 
 
 
-/* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
-}
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
