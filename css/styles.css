@@ -2,8 +2,20 @@
 /* Your Website Styles */
 body {
 	background: url("../img/stardust.png") #20B2AA;
+  width: 90%;
+  margin: 0 auto;
+
 }
 
+
+div {
+  margin-top: -60px;  
+}
+
+#home{
+  margin-top: 10px;
+  padding: 10px;
+}
 
 /************************
 GENERAL
@@ -13,27 +25,26 @@ body {
 	color: #7D1935;
 	font-weight: normal;
 	text-decoration: none;
+  padding: 2em 2em 2em 2em;
+ 
 }
 
 
-#wrapper {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 5%;
-}
 
 a { 
   text-decoration: none;
+  color: #AFEEEE;
+  cursor: crosshair;
 }
 
 img {
-	width: 400px;
-	margin: 0 auto 30px;
+	width: 450px;
+	margin: 30px 30px 30px 30px;
 	
 }
 
 h3 {
-  margin: 0 0 1em 0;
+  margin: 1em 0 0 0;
 }
 
 /************************
@@ -61,23 +72,23 @@ h1 {
 }
 
 h2 {
+  color: #eeafaf;
+}
+
+p {
   font-family: 'Quicksand', sans-serif;
-  margin:-5px 0 0;
+  margin: 5px 0 0;
   font-weight: normal;
-  font-size: 1.50em;
+  font-size: 1.25em;
 }
 
 h3 {
 	font-family: 'Sacramento', cursive;
 	color: #9179E6;
-	font-size: 1.25em;
+	font-size: 1.75em;
+  text-align: center;
 }
 
-li {
-  list-style: none;
-  float: left;
-  margin: 0 4px 0 4px;
-}
 
 
 
@@ -92,12 +103,6 @@ footer {
   color:#9dd6d6;
 }
 
-
-
-
-/************************
-PAGE:ABOUT
-*************************/
 
 
 /************************
@@ -138,19 +143,41 @@ header {
   border-color:#eeafaf;
 }
 
-
-
-    
 /*links*/
 
-a {
-  color: #AFEEEE;
+
+
+/* selected nav link */
+nav a:hover {
+  color: #eeafaf;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #fff;
+} 
+
+
+
+
+/************************
+NAVIGATION
+*************************/
+nav {
+  text-align:center;
+  padding:10px 0;
+  margin:20px 0 0 0;
 }
 
 
+nav li {
+  display: inline-block;
+}
 
-
-
+nav a {
+  font-weight: 400;
+  padding: 15px 10px;
+}
 
 
 
