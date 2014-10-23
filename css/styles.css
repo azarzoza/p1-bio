@@ -126,6 +126,8 @@ PAGE:CONTACT
 
 
 
+
+
 /************************
 COLORS
 *************************/
@@ -137,24 +139,23 @@ body {
 }
     
 
- /* blue header */
+ /* header */
 header {
   background:#9dd6d6;
   border-color:#eeafaf;
 }
 
-/*links*/
-
 
 
 /* selected nav link */
-nav a:hover {
-  color: #eeafaf;
+nav a:hover,
+nav a:active {
+  color: #9dd6d6;
 }
 
-/* nav link */
-nav a, nav a:visited {
-  color: #fff;
+nav a:link,
+nav a:visited  {
+  color: #eeafaf;
 } 
 
 
